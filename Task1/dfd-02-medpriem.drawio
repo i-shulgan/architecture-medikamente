@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host='app.diagrams.net'>
+  <diagram id='dfd02' name='Медицинский приём'>
+    <mxGraphModel grid='1' gridSize='10' page='1' pageWidth='1600' pageHeight='2320' background='#ffffff'>
+      <root>
+        <mxCell id='0'/>
+        <mxCell id='1' parent='0'/>
+        <mxCell id='title' value='Медицинский приём и ведение карты' style='text;fillColor=none;strokeColor=none;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;fontSize=26;fontStyle=1;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='15' width='1500' height='55' as='geometry'/>
+        </mxCell>
+        <mxCell id='asTitle' value='As-Is · приём и ручное ведение медицинской карты' style='text;fillColor=none;strokeColor=none;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;fontSize=21;fontStyle=1;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='80' width='1500' height='45' as='geometry'/>
+        </mxCell>
+        <mxCell id='ab' value='Внутренний медицинский контур · офис / LAN' style='rounded=0;dashed=1;dashPattern=8 6;fillColor=#f3f6fa;strokeColor=#888888;verticalAlign=top;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='300' y='135' width='870' height='605' as='geometry'/>
+        </mxCell>
+        <mxCell id='ap' value='Пациент' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='200' width='190' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='ap2' value='Пациент&lt;br&gt;(повтор субъекта)' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='410' width='190' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='am' value='Outlook / Exchange&lt;br&gt;смежная система в офисе' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='620' width='190' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='a1' value='1. Врач: провести приём&lt;br&gt;прочитать и дополнить карту' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='200' width='260' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='a2' value='2. Врач: оформить&lt;br&gt;и выдать заключение' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='410' width='260' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='a3' value='3. Сотрудник:&lt;br&gt;прочитать и переслать копию' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='620' width='260' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='ad1' value='D1. Медицинские карты&lt;br&gt;Общий диск · Excel/JPG/PDF&lt;br&gt;PII / PHI' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='200' width='280' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='ad2' value='D1. Медицинские карты&lt;br&gt;(повтор хранилища)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='410' width='280' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='ad2r' value='D1. Медицинские карты&lt;br&gt;(повтор хранилища)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='620' width='280' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='asnote' value='Карты и результаты хранятся на общем диске; прикладных ограничений и аудита нет. Пунктиром отмечены предполагаемые оформление, сохранение и выдача заключения, пересылка копии. Почтовая пересылка не подтверждена. Порядок выдачи, наличие локальных и бумажных копий, USB и личных каналов нужно уточнить у врачей.' style='text;fillColor=none;strokeColor=none;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='755' width='1490' height='85' as='geometry'/>
+        </mxCell>
+        <mxCell id='f1' value='PII / жалобы / анамнез' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;' edge='1' parent='1' source='ap' target='a1'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f2' value='запись приёма' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;' edge='1' parent='1' source='a1' target='ad1'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f3' value='история болезни' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.75;entryX=1;entryY=0.75;' edge='1' parent='1' source='ad1' target='a1'>
+          <mxGeometry x='0' y='15' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f4' value='карта / результаты' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;' edge='1' parent='1' source='ad1' target='a2'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'>
+            <Array as='points'>
+              <mxPoint x='990' y='350'/>
+              <mxPoint x='530' y='350'/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id='f5' value='заключение' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;' edge='1' parent='1' source='a2' target='ad2'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f6' value='заключение' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;' edge='1' parent='1' source='a2' target='ap2'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f7' value='чтение карты' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;' edge='1' parent='1' source='ad2r' target='a3'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f8' value='копия с PII / PHI' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;' edge='1' parent='1' source='a3' target='am'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='tbTitle' value='Предлагаемые меры · защищённый медицинский домен' style='text;fillColor=none;strokeColor=none;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;fontSize=21;fontStyle=1;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='880' width='1500' height='50' as='geometry'/>
+        </mxCell>
+        <mxCell id='tb' value='Внутренний медицинский контур · доступ по роли, цели и связи с пациентом' style='rounded=0;dashed=1;dashPattern=8 6;fillColor=#f3f6fa;strokeColor=#888888;verticalAlign=top;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='300' y='940' width='1250' height='980' as='geometry'/>
+        </mxCell>
+        <mxCell id='bp1' value='Медицинский специалист&lt;br&gt;рабочее место врача' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='1030' width='190' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='bp2' value='Пациент&lt;br&gt;личный кабинет' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='1260' width='190' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='bp3' value='Лаборатория&lt;br&gt;внешняя система' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='1490' width='190' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='bit' value='Ответственный за ИБ&lt;br&gt;назначенная роль' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='1770' width='190' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='b1' value='1. Прочитать / обновить карту&lt;br&gt;RBAC/ABAC; цель лечения;&lt;br&gt;проверка записи; теги PHI' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='1030' width='260' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='b2' value='2. Выдать пациенту&lt;br&gt;только свои документы&lt;br&gt;проверка владельца записи' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='1260' width='260' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='b3' value='3. Обменяться анализами&lt;br&gt;минимум полей; API-адаптер;&lt;br&gt;сверка заказа и пациента' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='1490' width='260' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='b4' value='4. Анализировать события&lt;br&gt;выявлять нетипичный доступ&lt;br&gt;и направлять оповещения' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='1770' width='260' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='bd0' value='D1. Медицинские карты&lt;br&gt;PII / PHI · шифрование&lt;br&gt;доступ через приложение' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='1030' width='280' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='ba0' value='D2. Журнал аудита&lt;br&gt;и lineage&lt;br&gt;неизменяемое хранение' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='1300' y='1030' width='220' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='f9' value='событие операции' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=1;' edge='1' parent='1' source='b1' target='ba0'>
+          <mxGeometry x='0.55' y='-12' relative='1' as='geometry'>
+            <Array as='points'>
+              <mxPoint x='530' y='1195'/>
+              <mxPoint x='1410' y='1195'/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id='bd1' value='D1. Медицинские карты&lt;br&gt;(повтор хранилища)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='1260' width='280' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='ba1' value='D2. Журнал аудита&lt;br&gt;и lineage&lt;br&gt;(повтор)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='1300' y='1260' width='220' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='f10' value='событие операции' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=1;' edge='1' parent='1' source='b2' target='ba1'>
+          <mxGeometry x='0.55' y='-12' relative='1' as='geometry'>
+            <Array as='points'>
+              <mxPoint x='530' y='1425'/>
+              <mxPoint x='1410' y='1425'/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id='bd2' value='D1. Медицинские карты&lt;br&gt;(повтор хранилища)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='1490' width='280' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='ba2' value='D2. Журнал аудита&lt;br&gt;и lineage&lt;br&gt;(повтор)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='1300' y='1490' width='220' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='f11' value='событие операции' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=1;' edge='1' parent='1' source='b3' target='ba2'>
+          <mxGeometry x='0.55' y='-12' relative='1' as='geometry'>
+            <Array as='points'>
+              <mxPoint x='530' y='1655'/>
+              <mxPoint x='1410' y='1655'/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id='baRead' value='D2. Журнал аудита&lt;br&gt;и lineage&lt;br&gt;(повтор хранилища)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='1770' width='280' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='f12' value='запрос / запись · TLS' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;' edge='1' parent='1' source='bp1' target='b1'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f13' value='карта / назначения' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.75;entryX=1;entryY=0.75;' edge='1' parent='1' source='b1' target='bp1'>
+          <mxGeometry x='0' y='16' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f14' value='данные приёма / теги' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;' edge='1' parent='1' source='b1' target='bd0'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f15' value='история / назначения' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.75;entryX=1;entryY=0.75;' edge='1' parent='1' source='bd0' target='b1'>
+          <mxGeometry x='0' y='16' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f16' value='документы пациента' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;' edge='1' parent='1' source='bd1' target='b2'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f17' value='свои документы · TLS' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.75;entryX=1;entryY=0.75;' edge='1' parent='1' source='b2' target='bp2'>
+          <mxGeometry x='0' y='16' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f24' value='запрос · TLS' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;' edge='1' parent='1' source='bp2' target='b2'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f18' value='результат · TLS' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;' edge='1' parent='1' source='bp3' target='b3'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f19' value='заказ · TLS' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.75;entryX=1;entryY=0.75;' edge='1' parent='1' source='b3' target='bp3'>
+          <mxGeometry x='0' y='16' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f20' value='назначение / код заказа' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.25;entryX=1;entryY=0.25;' edge='1' parent='1' source='bd2' target='b3'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f21' value='проверенный результат' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.75;entryX=0;entryY=0.75;' edge='1' parent='1' source='b3' target='bd2'>
+          <mxGeometry x='0' y='16' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f22' value='история доступа' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;' edge='1' parent='1' source='baRead' target='b4'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f23' value='оповещение / отчёт' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;' edge='1' parent='1' source='b4' target='bit'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='controls' value='Контроль на этапах: сбор — сведения для медицинской помощи; диагнозы и назначения вносит врач. Передача — TLS, проверка API-контрактов, разрешённые каналы и DLP. Хранение — шифрование карт и резервных копий, ключи отдельно в KMS, проверка восстановления. Доступ — врач по роли и цели лечения, пациент только к своим документам; аудит чтения и изменений без текста диагнозов. Удаление и прекращение обработки — после проверки оснований и обязанностей хранения; сроки согласуются с владельцем данных и юристом.' style='text;fillColor=none;strokeColor=none;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='1950' width='1500' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='horizon' value='MVP: разделение категорий данных и прав доступа. Через год: просмотр пациентом своих заключений и анализов, проверки тегов в релизах и обнаружение нетипичного доступа. Лабораторный обмен подробно раскрывается в DFD-03; состав полей и протокол согласуются с лабораторией.' style='text;fillColor=none;strokeColor=none;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='2050' width='1500' height='80' as='geometry'/>
+        </mxCell>
+        <mxCell id='legend' value='Легенда: синий прямоугольник — внешний участник или смежная система; зелёный округлённый блок с номером — процесс; жёлтые две линии с D — хранилище; стрелка — именованный поток данных. Пунктирная стрелка в As-Is — предполагаемый маршрут или операция; пунктирная рамка — граница прикладного контура, не офиса. Повторы D1/D2 в одной области обозначают то же хранилище, а не копии. Нумерация независима для As-Is и предлагаемых мер. Цвет обозначает тип элемента. PII — персональные данные; PHI — данные о здоровье.' style='text;fillColor=none;strokeColor=none;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='2140' width='1500' height='125' as='geometry'/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

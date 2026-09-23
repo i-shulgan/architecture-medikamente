@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host='app.diagrams.net'>
+  <diagram id='dfd05' name='ТМЦ и закупки'>
+    <mxGraphModel grid='1' gridSize='10' page='1' pageWidth='1600' pageHeight='2890' background='#ffffff'>
+      <root>
+        <mxCell id='0'/>
+        <mxCell id='1' parent='0'/>
+        <mxCell id='title' value='Товарно-материальные ценности и закупки' style='text;fillColor=none;strokeColor=none;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;fontSize=26;fontStyle=1;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='15' width='1500' height='55' as='geometry'/>
+        </mxCell>
+        <mxCell id='asTitle' value='As-Is · складской учёт и обмен между файловыми 1С' style='text;fillColor=none;strokeColor=none;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;fontSize=21;fontStyle=1;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='80' width='1500' height='45' as='geometry'/>
+        </mxCell>
+        <mxCell id='ab' value='Внутренний складской и бухгалтерский контур · офис / LAN' style='rounded=0;dashed=1;dashPattern=8 6;fillColor=#f3f6fa;strokeColor=#888888;verticalAlign=top;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='300' y='135' width='1250' height='910' as='geometry'/>
+        </mxCell>
+        <mxCell id='ap' value='Сотрудник склада' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='200' width='190' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='ap2' value='Поставщик&lt;br&gt;внешний участник' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='410' width='190' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='am' value='Сотрудник склада&lt;br&gt;(повтор участника)' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='620' width='190' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='a1' value='1. Внести потребность&lt;br&gt;и проверить остатки в 1С' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='200' width='260' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='a2' value='2. Сотрудник склада:&lt;br&gt;оформить и передать заказ' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='410' width='260' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='a3' value='3. Сотрудник склада:&lt;br&gt;внести данные приёмки' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='620' width='260' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='ad1' value='D1. Файловая база&lt;br&gt;1С:Торговля и склад&lt;br&gt;остатки / заказы / документы' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='200' width='280' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='ad2' value='D1. Файловая база 1С:ТиС&lt;br&gt;(повтор хранилища)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='410' width='280' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='ad2r' value='D1. Файловая база 1С:ТиС&lt;br&gt;(повтор хранилища)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='620' width='280' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='asnote' value='ТМЦ и закупки учитываются в файловой «1С:Торговля и склад», интегрированной с бухгалтерией. Прикладного аудита и контроля потоков нет. Пунктиром показаны предполагаемые маршруты заявки, заказа, приёмки и обмена: порядок действий и состав полей обмена нужно подтвердить у склада и бухгалтерии. Использование Excel, почты, сканов и локальных копий в закупках не подтверждено.' style='text;fillColor=none;strokeColor=none;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='1060' width='1490' height='85' as='geometry'/>
+        </mxCell>
+        <mxCell id='f1' value='заявка / номенклатура' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;' edge='1' parent='1' source='ap' target='a1'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f2' value='потребность / заявка' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;' edge='1' parent='1' source='a1' target='ad1'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f3' value='остатки / позиции' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.75;entryX=1;entryY=0.75;' edge='1' parent='1' source='ad1' target='a1'>
+          <mxGeometry x='0' y='15' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f4' value='данные закупки' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;' edge='1' parent='1' source='ad1' target='a2'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'>
+            <Array as='points'>
+              <mxPoint x='990' y='350'/>
+              <mxPoint x='530' y='350'/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id='f5' value='заказ / статус' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;' edge='1' parent='1' source='a2' target='ad2'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f6' value='заказ поставщику' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.75;entryX=1;entryY=0.75;' edge='1' parent='1' source='a2' target='ap2'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f7' value='приход / расхождения' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.75;entryX=0;entryY=0.75;' edge='1' parent='1' source='a3' target='ad2r'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f8' value='данные приёмки' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;' edge='1' parent='1' source='am' target='a3'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='tbTitle' value='Предлагаемые меры · контролируемые закупки и складской учёт' style='text;fillColor=none;strokeColor=none;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;fontSize=21;fontStyle=1;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='1190' width='1500' height='50' as='geometry'/>
+        </mxCell>
+        <mxCell id='tb' value='Внутренний складской контур · роли, проверка документов и контроль обмена' style='rounded=0;dashed=1;dashPattern=8 6;fillColor=#f3f6fa;strokeColor=#888888;verticalAlign=top;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='300' y='1250' width='1250' height='1210' as='geometry'/>
+        </mxCell>
+        <mxCell id='bp1' value='Сотрудник склада&lt;br&gt;заявитель / согласующий' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='1340' width='190' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='bp2' value='Поставщик&lt;br&gt;разрешённый контрагент' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='1570' width='190' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='bp3' value='Сотрудник склада&lt;br&gt;приёмка товара' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='1800' width='190' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='bit' value='Ответственный за ИБ&lt;br&gt;назначенная роль' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='2310' width='190' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='b1' value='1. Проверить заявку&lt;br&gt;остатки; роли согласования;&lt;br&gt;минимум данных; теги' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='1340' width='260' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='b2' value='2. Обменяться документами&lt;br&gt;проверка контрагента;&lt;br&gt;разрешённые поля и каналы' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='1570' width='260' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='b3' value='3. Сверить приёмку с заказом&lt;br&gt;количество и документы;&lt;br&gt;защита от повторного прихода' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='1800' width='260' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='b4' value='5. Анализировать события&lt;br&gt;аномальный доступ и выгрузки;&lt;br&gt;оповещение ответственного' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='2310' width='260' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='bd0' value='D1. Учёт ТМЦ и заказов&lt;br&gt;1С:Торговля и склад&lt;br&gt;INVENTORY / PII · шифрование' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='1340' width='280' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='ba0' value='D2. Журнал аудита&lt;br&gt;и lineage&lt;br&gt;неизменяемое хранение' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='1300' y='1340' width='220' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='f9' value='событие операции' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=1;' edge='1' parent='1' source='b1' target='ba0'>
+          <mxGeometry x='0.55' y='-12' relative='1' as='geometry'>
+            <Array as='points'>
+              <mxPoint x='530' y='1505'/>
+              <mxPoint x='1410' y='1505'/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id='bd1' value='D1. Учёт ТМЦ и заказов&lt;br&gt;(повтор хранилища)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='1570' width='280' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='ba1' value='D2. Журнал аудита&lt;br&gt;и lineage&lt;br&gt;(повтор)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='1300' y='1570' width='220' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='f10' value='событие операции' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=1;' edge='1' parent='1' source='b2' target='ba1'>
+          <mxGeometry x='0.55' y='-12' relative='1' as='geometry'>
+            <Array as='points'>
+              <mxPoint x='530' y='1735'/>
+              <mxPoint x='1410' y='1735'/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id='bd2' value='D1. Учёт ТМЦ и заказов&lt;br&gt;(повтор хранилища)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='1800' width='280' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='ba2' value='D2. Журнал аудита&lt;br&gt;и lineage&lt;br&gt;(повтор)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='1300' y='1800' width='220' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='f11' value='событие операции' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=1;' edge='1' parent='1' source='b3' target='ba2'>
+          <mxGeometry x='0.55' y='-12' relative='1' as='geometry'>
+            <Array as='points'>
+              <mxPoint x='530' y='1965'/>
+              <mxPoint x='1410' y='1965'/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id='baRead' value='D2. Журнал аудита&lt;br&gt;и lineage&lt;br&gt;(повтор хранилища)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='2310' width='280' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='f12' value='заявка · TLS' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;' edge='1' parent='1' source='bp1' target='b1'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f13' value='решение / статус' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.75;entryX=1;entryY=0.75;' edge='1' parent='1' source='b1' target='bp1'>
+          <mxGeometry x='0' y='16' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f14' value='согласованный заказ' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;' edge='1' parent='1' source='b1' target='bd0'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f15' value='остатки / условия' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.75;entryX=1;entryY=0.75;' edge='1' parent='1' source='bd0' target='b1'>
+          <mxGeometry x='0' y='16' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f16' value='заказ / контрагент' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.25;entryX=1;entryY=0.25;' edge='1' parent='1' source='bd1' target='b2'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f17' value='заказ / минимум PII' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.75;entryX=1;entryY=0.75;' edge='1' parent='1' source='b2' target='bp2'>
+          <mxGeometry x='0' y='16' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f24' value='счёт / накладная' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;' edge='1' parent='1' source='bp2' target='b2'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f18' value='данные приёмки' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;' edge='1' parent='1' source='bp3' target='b3'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f19' value='статус / расхождения' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.75;entryX=1;entryY=0.75;' edge='1' parent='1' source='b3' target='bp3'>
+          <mxGeometry x='0' y='16' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f20' value='заказ / накладная' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.25;entryX=1;entryY=0.25;' edge='1' parent='1' source='bd2' target='b3'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f21' value='приход / расхождения' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.75;entryX=0;entryY=0.75;' edge='1' parent='1' source='b3' target='bd2'>
+          <mxGeometry x='0' y='16' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f22' value='история доступа' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;' edge='1' parent='1' source='baRead' target='b4'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='f23' value='оповещение / отчёт' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;' edge='1' parent='1' source='b4' target='bit'>
+          <mxGeometry x='0' y='-12' relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='controls' value="Контроль на этапах: заявка — роли заявителя и согласующего, проверка остатков; правила согласования задаются владельцем процесса. Поставщик — только номенклатура, количество и необходимые реквизиты; без данных пациентов. Обмен — согласованный защищённый канал, проверка вложений и DLP; API с TLS при поддержке поставщиком. Приёмка — сверка количества и документов, защита от повторного прихода. 1С — контролируемый адаптер, защита канала после проверки протокола, сверка сумм и статусов. Хранение — шифрование, отдельные ключи в KMS, проверка восстановления; аудит изменений и выгрузок." style='text;fillColor=none;strokeColor=none;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='2490' width='1500' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='horizon' value='MVP: разграничение категорий данных и прав доступа. Через год: автоматические проверки тегов в релизах и обнаружение аномального доступа. Закупки переводятся на контролируемый обмен поэтапно; сроки согласуются со складом и бухгалтерией. Файловые 1С сохраняются на переходный период. Сроки хранения, правила согласования и состав документов поставщика требуют уточнения.' style='text;fillColor=none;strokeColor=none;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='2590' width='1500' height='80' as='geometry'/>
+        </mxCell>
+        <mxCell id='legend' value='Легенда: синий прямоугольник — внешний участник или смежная система; зелёный округлённый блок с номером — процесс; жёлтые две линии с D — хранилище; стрелка — именованный поток данных, а не физическое движение товара. Пунктирная стрелка в As-Is — предполагаемый маршрут или операция; пунктирная рамка — граница прикладного контура, не офиса. Повторы D1/D2 в одной области обозначают то же хранилище, а не копии. Нумерация независима для As-Is и предлагаемых мер. Цвет обозначает тип элемента. INVENTORY — складские данные; PII — персональные данные контактных лиц. 1С:Бухгалтерия в нижней области — смежное приложение в офисе.' style='text;fillColor=none;strokeColor=none;align=left;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='2680' width='1500' height='125' as='geometry'/>
+        </mxCell>
+        <mxCell id='reader' value='Бухгалтер' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='850' width='190' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='issue' value="4. Обменяться данными между 1С&lt;br&gt;протокол уточняется" style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='850' width='260' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='resultcopy' value='D1. Файловая база 1С:ТиС&lt;br&gt;(повтор хранилища)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='850' width='280' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='dailycopy' value='D2. Файловая база&lt;br&gt;1С:Бухгалтерия&lt;br&gt;финансовые документы' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='1300' y='850' width='220' height='90' as='geometry'/>
+        </mxCell>
+        <mxCell id='aRead' value='данные ТМЦ' edge='1' parent='1' source='resultcopy' target='issue' style='dashed=1;edgeStyle=orthogonalEdgeStyle;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.25;entryX=1;entryY=0.25;'>
+          <mxGeometry relative='1' y='-12' as='geometry'/>
+        </mxCell>
+        <mxCell id='aIndex' value='данные бухгалтерии' edge='1' parent='1' source='dailycopy' target='issue' style='dashed=1;edgeStyle=orthogonalEdgeStyle;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=1;'>
+          <mxGeometry relative='1' y='-12' as='geometry'>
+            <Array as='points'>
+              <mxPoint x='1410' y='1010'/>
+              <mxPoint x='530' y='1010'/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id='aIssue' value='итоги обмена' edge='1' parent='1' source='issue' target='reader' style='dashed=1;edgeStyle=orthogonalEdgeStyle;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;'>
+          <mxGeometry relative='1' y='-12' as='geometry'/>
+        </mxCell>
+        <mxCell id='saveResult' value='документы / статус' edge='1' parent='1' source='b2' target='bd1' style='edgeStyle=orthogonalEdgeStyle;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.75;entryX=0;entryY=0.75;'>
+          <mxGeometry relative='1' y='-12' as='geometry'/>
+        </mxCell>
+        <mxCell id='kkmReply' value='счёт / подтверждение' edge='1' parent='1' source='ap2' target='a2' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;'>
+          <mxGeometry relative='1' y='-12' as='geometry'/>
+        </mxCell>
+        <mxCell id='acc' value='1С:Бухгалтерия&lt;br&gt;смежная система в офисе' style='rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='40' y='2030' width='190' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='sync' value='4. Передать и сверить учёт&lt;br&gt;адаптер 1С; проверка сумм;&lt;br&gt;повтор без дублирования' style='rounded=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='400' y='2030' width='260' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='paycopy' value='D1. Учёт ТМЦ и заказов&lt;br&gt;(повтор хранилища)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='850' y='2030' width='280' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='auditcopy' value='D2. Журнал аудита&lt;br&gt;и lineage&lt;br&gt;(повтор хранилища)' style='shape=partialRectangle;left=0;right=0;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;fontSize=16;spacing=10;' vertex='1' parent='1'>
+          <mxGeometry x='1300' y='2030' width='220' height='110' as='geometry'/>
+        </mxCell>
+        <mxCell id='accIn' value='проводки / статус' edge='1' parent='1' source='acc' target='sync' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;'>
+          <mxGeometry relative='1' y='-12' as='geometry'/>
+        </mxCell>
+        <mxCell id='accOut' value='приход / документы' edge='1' parent='1' source='sync' target='acc' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.75;entryX=1;entryY=0.75;'>
+          <mxGeometry relative='1' y='-12' as='geometry'/>
+        </mxCell>
+        <mxCell id='payRead' value='приход / суммы' edge='1' parent='1' source='paycopy' target='sync' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.25;entryX=1;entryY=0.25;'>
+          <mxGeometry relative='1' y='-12' as='geometry'/>
+        </mxCell>
+        <mxCell id='payWrite' value='статус сверки' edge='1' parent='1' source='sync' target='paycopy' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.75;entryX=0;entryY=0.75;'>
+          <mxGeometry relative='1' y='-12' as='geometry'/>
+        </mxCell>
+        <mxCell id='syncAudit' value='событие операции' edge='1' parent='1' source='sync' target='auditcopy' style='edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=1;'>
+          <mxGeometry relative='1' y='-12' as='geometry'>
+            <Array as='points'>
+              <mxPoint x='530' y='2195'/>
+              <mxPoint x='1410' y='2195'/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id='asStockReply' value='данные сверки' edge='1' parent='1' source='issue' target='resultcopy' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.75;entryX=0;entryY=0.75;'>
+          <mxGeometry relative='1' y='-12' as='geometry'/>
+        </mxCell>
+        <mxCell id='asAccWrite' value='документы ТМЦ' edge='1' parent='1' source='issue' target='dailycopy' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.75;exitY=1;entryX=0;entryY=0.25;'>
+          <mxGeometry relative='1' y='-12' as='geometry'>
+            <Array as='points'>
+              <mxPoint x='595' y='970'/>
+              <mxPoint x='1250' y='970'/>
+              <mxPoint x='1250' y='872.5'/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id='asOrderRead' value='заказ / накладная' edge='1' parent='1' source='ad2r' target='a3' style='dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.25;entryX=1;entryY=0.25;'>
+          <mxGeometry relative='1' y='-12' as='geometry'/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
